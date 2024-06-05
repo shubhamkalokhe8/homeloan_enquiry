@@ -3,6 +3,7 @@ package com.cjc.loanapplication.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,7 @@ import com.cjc.loanapplication.servicei.EnquiryService;
 import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 @Slf4j
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/enquiry")
 public class EnquiryController
