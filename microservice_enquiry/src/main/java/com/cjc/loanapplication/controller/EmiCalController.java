@@ -26,5 +26,6 @@ public class EmiCalController
 		log.info("Emi Calculator ");
 		return new ResponseEntity<EmiCalci>(emical,HttpStatus.OK);
 	}
+System.out.println("Hi");
 
 }
